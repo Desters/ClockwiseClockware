@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
+.getInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(250, 224, 212);
+    border: solid rgb(241, 172, 115) 1px;
+    margin-left: 30%;
+    margin-right: 30%;
+    min-width: 450px;
+    max-width: 50%;
+    padding: 2% 2%;
+    margin-top: 10%;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.3);
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+}
+
+.getElement{
+    min-width: 350px;
+    max-width: 400px;
+    margin: 10px 10px;
+    border: solid white 1px;
+    text-indent: 20px;
+    color:rgb(134, 134, 134);
+    outline: none;
+    border-radius: 10px;
+}
+
+.buttonStyle{
+    margin-top: 30px;
+    min-width: 170px;
+    max-width: 230px;
+    border: solid rgb(250, 224, 212) 1px;
+    border-radius: 3px;
+    background-color: rgb(184, 28, 0);
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    color:rgb(216, 216, 216);
+    border-radius: 10px;
+    
+}
+
+.buttonStyle:active{
+    background-color: rgb(241, 36, 0);
+}
+
+.buttonStyle:enabled{
+    outline: none;
+}
