@@ -1,8 +1,8 @@
 import SelectElement from './SelectElement';
 import '../Style.css'
 
-const ClockSize = ['Маленькие часы', 'Средние часы', 'Большие Часы'],
-      City = ['Днепр', 'Ужгород'];      
+const clockSize = ['Маленькие часы', 'Средние часы', 'Большие Часы'];
+const city = ['Днепр', 'Ужгород'];      
       function createDate(){
         const Today = [];
         for(let i = 0; i < 15; i++){
@@ -23,8 +23,8 @@ function GetInfoPage(){
         <div className='getInfo'>
             <input className='getElement' type='text' placeholder='Ф.И.О.' min='4' />
             <input className='getElement' type='email' placeholder='Email' min='5' />
-            <SelectElement take={ClockSize} />
-            <SelectElement take={City} />
+            <SelectElement take={clockSize} />
+            <SelectElement take={city} />
             <SelectElement take={createDate()} />
             <SelectElement take={createTime()} />
             <button className='buttonStyle'> Далее </button>
