@@ -20,7 +20,7 @@ const city = ['Днепр', 'Ужгород'];
 
 function GetInfoPage(){
     return(
-        <div className='getInfo'>
+        <div className='massageBox'>
             <input className='getElement' type='text' placeholder='Ф.И.О.' min='4' />
             <input className='getElement' type='email' placeholder='Email' min='5' />
             <SelectElement take={clockSize} />

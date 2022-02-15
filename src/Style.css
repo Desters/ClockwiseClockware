@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
 
-.getInfo{
+.massageBox{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(250, 224, 212);
     border: solid rgb(241, 172, 115) 1px;
+    background-color: rgb(127, 163, 230);
     margin-left: 30%;
     margin-right: 30%;
+    margin-bottom: 10vh;
     min-width: 450px;
     max-width: 50%;
     padding: 15px 15px;
@@ -16,6 +17,26 @@
     box-shadow: 0 0 50px rgba(0,0,0,0.3);
     font-family: 'Comfortaa', cursive;
     font-size: 16px;
+    min-height: 40vh;
+}
+
+.popUpWindow{
+    background-color: rgb(127, 163, 230);
+    margin-top: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 350px;
+    max-width: 450px;
+    padding: 30px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.3);
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: white;
 }
 
 .getElement{
@@ -35,7 +56,7 @@
     max-width: 230px;
     border: solid rgb(250, 224, 212) 1px;
     border-radius: 3px;
-    background-color: rgb(184, 28, 0);
+    background-color: rgb(42, 15, 199);
     outline: none;
     -webkit-tap-highlight-color: transparent;
     color:rgb(216, 216, 216);
@@ -44,9 +65,28 @@
 }
 
 .buttonStyle:active{
-    background-color: rgb(241, 36, 0);
+    background-color: rgb(80, 52, 238);
 }
 
 .buttonStyle:enabled{
     outline: none;
+}
+
+.mastersBox{
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 50px rgba(0,0,0,0.3);
+    height: 14vh;
+    border-radius: 20px;
+    padding-top: 30px;
+    margin: 10px 10px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stars{
+    text-align: right;
 }
