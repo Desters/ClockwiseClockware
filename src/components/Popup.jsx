@@ -1,12 +1,10 @@
-import '../Style.css'
-
-function PopUpWindow(){
+function PopUp(){
     return(
         <div className='popUpWindow'>
             <p>По заданным параметрам нет свободных мастеров</p>
-            <button className='buttonStyle'>Далее</button>
+            <button className='button-style'>OK</button>
         </div>
     );
 }
 
-export default PopUpWindow;
+export default PopUp;

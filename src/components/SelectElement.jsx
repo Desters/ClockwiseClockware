@@ -1,13 +1,7 @@
-import '../Style.css'
-
-function SelectElement({take}){
-    const list = [];
-    for(let i = 0; i < take.length; i++){
-        list.push(<option key={take[i]}> {take[i]} </option>);
-    }
+function SelectElement({take}){    
     return(
         <select className='getElement'>
-             {list};
+             { take.map(element => <option key={ element }>{ element }</option>) };
         </select>
     );
 }

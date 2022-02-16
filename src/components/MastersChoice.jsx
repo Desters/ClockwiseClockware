@@ -1,24 +1,21 @@
-import '../Style.css'
-
-function createMaster(element){
-    const arr = [];
-    for(let i = 0; i < element; i++){
-        arr.push(
-        <div className='mastersBox' key={i}><p>ФИО мастреа</p>
-        <span className='stars'>★★★★★</span>
-        </div>
-        );
-    }
-    return arr;
+function createMaster(count) {
+  return new Array(count).fill(count).map((element,i) => {
+      return(
+    <div className="mastersBox" key={i}>
+      <p>ФИО мастера</p>
+      <span className="stars">★★★★★</span>
+    </div>
+      );
+  });
 }
 
-function MastersChoice({count}){
-    return(
-        <div className='massageBox'>
-            {createMaster(count)}
-            <button className='buttonStyle'>Далее</button>
-        </div>  
-    );
+function MastersChoice({ count }) {
+  return (
+    <div className="message-box">
+      {createMaster(count)}
+      <button className="button-style">Далее</button>
+    </div>
+  );
 }
 
 export default MastersChoice;

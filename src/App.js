@@ -1,14 +1,16 @@
 import GetInfoPage from './components/GetInfoPage';
-import PopUpWindow from './components/Popup';
+import PopUp from './components/Popup';
 import MastersChoice from './components/MastersChoice';
-import './Style.css'
+import AdminList from './components/AdminList';
+import AdminLogInPage from './components/AdminLogInPage';
+
 
 const MasterNumber = 5;
 
 function App() {
   return (
     <div className='Content'>
-      <GetInfoPage count={MasterNumber}/>
+      <AdminList />
     </div>
   );
 }
