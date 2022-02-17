@@ -1,6 +1,6 @@
 function PopUp(){
     return(
-        <div className='popUpWindow'>
+        <div className='pop-up-window'>
             <p>По заданным параметрам нет свободных мастеров</p>
             <button className='button-style'>OK</button>
         </div>

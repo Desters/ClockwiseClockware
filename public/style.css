@@ -5,32 +5,73 @@
     flex-direction: column;
     align-items: center;
     background-color: rgb(127, 163, 230);
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-bottom: 10vh;
     min-width: 450px;
-    max-width: 50%;
     padding: 15px 15px;
-    margin-top: 10vh;
     border-radius: 20px;
     box-shadow: 0 0 50px rgba(0,0,0,0.3);
     font-family: 'Comfortaa', cursive;
     font-size: 16px;
-    min-height: 40vh;
+    min-height: 35vh;
 }
 
-.adminPage{
+.user-get-info{
+    min-width: 350px;
+    max-width: 700px;
+    margin-top: 10vh;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 20vh;
+    padding-top: 4vh;
+}
+
+.masters-box{
+    min-width: 350px;
+    max-width: 700px;
+}
+
+.master-list{
+    min-width: 350px;
+    max-width: 700px;
+    margin-top: 10vh;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.menu-container{
+    display: flex;
+    margin-left: 25px;
+}
+
+.menu-container-size{
+    background-color: rgb(127, 163, 230);
+    min-height: 45vh;
+    border-radius: 20px;
+}
+
+.admin-button{
+    background-color: rgb(43, 59, 88);
+    color:white;
+    border-radius: 10px 10px 0px 0px;
+    width: 100px;
+    height: px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    padding: 15px;
+    margin-left: 1px;
+}
+
+.admin-page{
     padding-top: 8vh;
     min-height: 30vh;
     margin-top: 30vh;
 }
 
-.adminbutton{
-    min-width: 450px;
-    max-width: 50%;
+.admin-menu{
+    display: flex;
 }
 
-.popUpWindow{
+.pop-up-window{
     background-color: rgb(127, 163, 230);
     margin-top: 35vh;
     display: flex;
@@ -42,14 +83,14 @@
     border-radius: 20px;
     box-shadow: 0 0 50px rgba(0,0,0,0.3);
     font-family: 'Comfortaa', cursive;
-    font-size: 16px;
+    font-size: 23px;
     text-align: center;
     margin-left: 40%;
     margin-right: 40%;
     color: white;
 }
 
-.getElement{
+.get-element{
     min-width: 350px;
     max-width: 400px;
     margin: 10px 10px;
@@ -86,7 +127,7 @@
     outline: none;
 }
 
-.mastersBox{
+.masters-box{
     width: 90%;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 50px rgba(0,0,0,0.3);
@@ -103,4 +144,6 @@
 
 .stars{
     text-align: right;
+    color:rgb(223, 146, 23);
+    font-size: 30px;
 }

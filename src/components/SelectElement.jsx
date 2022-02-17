@@ -1,6 +1,6 @@
 function SelectElement({take}){    
     return(
-        <select className='getElement'>
+        <select className='get-element'>
              { take.map(element => <option key={ element }>{ element }</option>) };
         </select>
     );

@@ -20,9 +20,9 @@ function createTime(){
 
 function GetInfoPage(){
     return(
-        <div className='message-box'>
-            <input className='getElement' type='text' placeholder='Ф.И.О.' min='4' />
-            <input className='getElement' type='email' placeholder='Email' min='5' />
+        <div className='message-box user-get-info'>
+            <input className='get-element' type='text' placeholder='Ф.И.О.' min='4' />
+            <input className='get-element' type='email' placeholder='Email' min='5' />
             <SelectElement take={clockSize} />
             <SelectElement take={city} />
             <SelectElement take={createDate()} />
