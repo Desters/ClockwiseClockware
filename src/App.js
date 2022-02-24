@@ -11,7 +11,7 @@ const MasterNumber = 5;
 function App() {
   return (
     <div className='Content'>
-      <MastersChoice />
+      <AdminControlPanel />
     </div>
   );
 }
